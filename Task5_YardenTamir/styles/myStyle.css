@@ -1,0 +1,147 @@
+﻿html {
+    direction: rtl;
+    width: 100%;
+    height: 100%;
+    background-color: lightgreen;
+}
+
+body {
+    font-size: 20px;
+    color: black;
+    position: absolute;
+}
+
+#inside {
+    font-size: 20px;
+    background: url('../images/hardworking-student-powerpoint-templates.JPG') no-repeat top center;
+}
+
+header {
+    text-align: center;
+    padding-top: 2%;
+}
+
+
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+h2 {
+    padding-top: 2%;
+    font-size: 40px;
+    padding-bottom: 1px;
+    letter-spacing: 6px;
+}
+
+
+#titleforlist {
+    padding-right: 10%;
+    padding-top: 2.8%;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#whylist {
+    padding-right: 10%;
+}
+
+
+.whylistli {
+    display: block;
+    font-size: 35px;
+    box-sizing: border-box;
+    padding-right: 5%;
+    position: relative;
+    padding-top: 4px;
+}
+
+    .whylistli:before {
+        content: '';
+        position: absolute;
+        background: url('../images/120px-Mensural_time_signature_1.svg.png') no-repeat;
+        width: 50px;
+        height: 30px;
+        background-size: 60%;
+        top: 0px;
+        right: 0px;
+    }
+
+
+.logo {
+    margin: auto;
+}
+
+
+.formtitle {
+    padding-top: 3%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 3%;
+    color: white;
+    font-weight: bold;
+}
+
+.myform {
+    margin: 0px 300px 10px;
+    width: 950px;
+    position: relative;
+}
+
+#misgeret {
+    padding-bottom: 2%;
+    background: green;
+    border-radius: 20px;
+    margin: 50px;
+    border: solid;
+}
+
+.miluy {
+    display: block;
+    margin: 0 auto 0.9rem;
+    width: 85%;
+    height: 45px;
+}
+
+.form-input {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    padding: 0 0.6rem 0;
+    font-size: 1.3rem;
+    border: 2px black;
+    color: black;
+}
+
+#buttom1 {
+    width: 50%;
+    height: 100%;
+    background: darkred;
+    font-size: 2.4rem;
+    border: solid 4px black;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#kaftor {
+    padding: 10px 220px;
+}
+
+
+.submit {
+    margin: 0;
+    width: 100%;
+    margin-top: 2px;
+    height: 60px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+#misgeret > div.miluy {
+    color: black;
+    font-size: 30px;
+}
