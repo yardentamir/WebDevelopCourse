@@ -1,0 +1,101 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>HIT הרשמה</title>
+    <meta name="description" content="הרשמה למכון הטכנולוגי חולון" />
+    <meta name="keywords" content="הרשמה HIT , מכון טכנולוגי חולון, לימודים, תואר ראשון" />
+    <meta name="author" content="ירדן טמיר" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <div id="inside" >
+        <div class="div1">
+            <header>
+                <h1>מקצוע טכנולוגי?</h1>
+                <h2>רק במכון הטכנולוגי בחולון</h2>
+            </header>
+
+            <p id="titleforlist">למה כדאי ללמוד אצלינו?</p>
+            <br />
+
+            <div id="whylist">
+                <ul> 
+                    <li class="whylistli"> המרצים שלנו בעלי נסיון מהשטח</li>
+                    <li class="whylistli">תוכניות לימוד מתחדשות וחדשניות</li>
+                    <li class="whylistli">ספרייה גדולה ונוחה</li>
+                    <li class="whylistli">למידה חוויתית ובלתי נשכחת</li>
+                    <li class="whylistli">מכינה אותך לעולם האמיתי שבחוץ</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="div2">
+
+
+                <div class="logo"><a href="http://www.hit.ac.il/" target="_blank"><img src="images/hit.jpg" alt="HIT מכון טכנולוגי חולון" title="לאתר הבית"></a></div>
+
+                <section class="form-wrapper">
+
+
+                    <div class="myform">
+                        <form>
+                        <input type="hidden" id="myEmail" name="name" value="yardentamir5@gmail.com">
+
+                        <div id="misgeret">
+                            <div class="formtitle">
+                                לקבלת יעוץ בהקדם <br /> מלאו פרטים כאן
+                            </div>
+
+
+                            <div class="miluy fullname">
+                                <input type="text" id="form_fullname" class="form-input" name="custName" maxlength="30" data-require="1" data-vtype="full-name" data-title="שם מלא" placeholder="שם מלא:">
+                            </div>
+
+                            <div class="miluy fullphone">
+                                <input type="tel" id="form_fullphone" class="form-input ltr" maxlength="10" data-require="1" data-vtype="full-phone" data-title="טלפון" onkeypress="return" placeholder="טלפון:" name="phone">
+                            </div>
+
+                            <div class="miluy email">
+                                <input type="email" id="form_email" class="form-input ltr" data-require="1" data-vtype="email" data-title="דוא&quot;ל" placeholder="דוא&quot;ל:" name="email">
+                            </div>
+
+                            <div class="miluy toar">
+                                <select name="field" id="form_field" class="form-input" data-require="1" data-title="תואר" title="תואר">
+                                    <option value="1">תואר ראשון </option>
+                                    <option value="2">תואר שני</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+
+                        <div class="miluy submit" id="kaftor">
+                            <button type="submit" id="buttom1" value="שלחו ">שלח פרטים </button>
+                        </div>
+
+
+                        </form>
+
+
+                    </div>
+
+                </section>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
